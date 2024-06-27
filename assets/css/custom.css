@@ -1,0 +1,22 @@
+:root {
+    --btn_border_color: #ff8f4f;
+    --btn_hover_color: #d1540d;
+    --text_color: #dc843a;
+  
+    --bg_light_mode: #ffffff;
+    --text_light_mode: #352e2b;
+    
+    --bg_dark_mode: #1c1818;
+    --section_heading_text_dark_mode: #828080;
+    --text_dark_mode: #d6d4d3;
+  }
+  
+  
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text_dark_mode);
+    background-color: var(--bg_dark_mode);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
